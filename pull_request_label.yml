@@ -1,0 +1,17 @@
+# Adds labels to pull requests as defined in labeler.yml
+name: Pull Request Label
+on:
+    pull_request:
+        branches:
+            - "master" # trigger the workflow when PR is created for mentioned branches
+
+jobs:
+    pr_label:
+        if: github.repository == <YOUR REPO NAME> # prevents running the workflow on forks
+        runs-on: ubuntu-latest
+        steps:
+            - name: Adding label
+              uses: actions/labeler@main
+              with:
+                  sync-labels: true
+                  repo-token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}

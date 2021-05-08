@@ -1,0 +1,10 @@
+# define labels as per your requirements
+modules:
+    - node_modules/*
+    - node_modules/**/*
+
+source:
+    - src/**/*
+
+documentation:
+    - '*.md'

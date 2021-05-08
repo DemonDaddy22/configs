@@ -1,9 +1,11 @@
+## Config Files
+---
+<br />
+
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/ctrl-c-ctrl-v.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
 
-## Config Files
----
 
 This repository contains a bunch of configuration files used by me to Bootstrap some of my projects and tools to increase my productivity. Feel free to use any of these files to enhance your productivity too!
 
