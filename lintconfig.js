@@ -4,9 +4,6 @@ module.exports = {
         ecmaVersion: 6,
         sourceType: 'module',
     },
-    settings: {
-        'import/resolver': 'webpack',
-    },
     env: {
         es6: true,
         browser: true,
@@ -45,18 +42,19 @@ module.exports = {
         'eqeqeq': 1,
     },
     settings: {
-        react: {
+        'import/resolver': 'webpack',
+        'react': {
             createClass: 'createReactClass',
             pragma: 'React',
             fragment: 'Fragment',
             version: 'detect',
             flowVersion: '0.53',
         },
-        propWrapperFunctions: [
+        'propWrapperFunctions': [
             'forbidExtraProps',
             { property: 'freeze', object: 'Object' },
             { property: 'myFavoriteWrapper' },
         ],
-        linkComponents: ['Hyperlink', { name: 'Link', linkAttribute: 'to' }],
+        'linkComponents': ['Hyperlink', { name: 'Link', linkAttribute: 'to' }],
     },
 };
